@@ -1,0 +1,1 @@
+protoc -I accounts/ accounts/accounts.proto --go_out=plugins=grpc:./../protorepo-accounts-go/
